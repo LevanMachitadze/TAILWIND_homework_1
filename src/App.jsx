@@ -6,19 +6,19 @@ import Container1 from './assets/png/Container (1).png';
 import Container2 from './assets/png/Container (2).png';
 import Container3 from './assets/png/Container (3).png';
 import Container4 from './assets/png/Container (4).png';
-import icon from './assets/png/icon.png';
-import icon2 from './assets/png/icon (1).png';
-import icon1 from './assets/png/Vector.png';
-import iconCOntainer from './assets/png/Icon Container.png';
-import iconCOntainer1 from './assets/png/Icon Container (1).png';
-import iconCOntainer2 from './assets/png/Icon Container (2).png';
-import iconCOntainer3 from './assets/png/Icon Container (3).png';
-import iconCOntainer4 from './assets/png/Icon Container (4).png';
-import iconCOntainer5 from './assets/png/Icon Container (5).png';
 import freeTrialImg from './assets/png/Background Images.png';
-import fbLogo from './assets/png/button.png';
-import instaLogo from './assets/png/button (1).png';
-import twLogo from './assets/png/button (2).png';
+import arrowIcon from './assets/svg/Icon (5).svg';
+import loopIcon from './assets/svg/Icon (3).svg';
+import bellIcon from './assets/svg/Icon (4).svg';
+import smartphoneIcon from './assets/svg/Icon Container.svg';
+import vrIcon from './assets/svg/Icon Container (6).svg';
+import consoleIcon from './assets/svg/Icon Container (5).svg';
+import laptopIcon from './assets/svg/Icon Container (4).svg';
+import tvIcon from './assets/svg/Icon Container (3).svg';
+import tabletIcon from './assets/svg/Icon Container (2).svg';
+import fbLogo from './assets/svg/Icon (6).svg';
+import instaLogo from './assets/svg/Icon (8).svg';
+import twLogo from './assets/svg/Icon (7).svg';
 
 function App() {
   const [openFaq, setOpenFaq] = useState(null);
@@ -61,8 +61,8 @@ function App() {
             </nav>
 
             <div className='flex space-x-4'>
-              <img src={icon} alt='Search Icon' className='w-6 h-6' />
-              <img src={icon1} alt='User Icon' className='w-6 h-6' />
+              <img src={loopIcon} alt='Search Icon' className='w-6 h-6' />
+              <img src={bellIcon} alt='User Icon' className='w-6 h-6' />
             </div>
           </div>
 
@@ -97,7 +97,7 @@ function App() {
               </div>
               <div className='w-[235px] flex justify-between'>
                 <h3>Action</h3>
-                <img src={icon2} alt='arrow' />
+                <img src={arrowIcon} alt='arrow' />
               </div>
             </div>
             <div className='bg-gray-800 p-4'>
@@ -106,7 +106,7 @@ function App() {
               </div>
               <div className='w-[235px] flex justify-between'>
                 <h3>Adventure</h3>
-                <img src={icon2} alt='arrow' />
+                <img src={arrowIcon} alt='arrow' />
               </div>
             </div>
             <div className='bg-gray-800 p-4'>
@@ -115,7 +115,7 @@ function App() {
               </div>
               <div className='w-[235px] flex justify-between'>
                 <h3>Comedy</h3>
-                <img src={icon2} alt='arrow' />
+                <img src={arrowIcon} alt='arrow' />
               </div>
             </div>
             <div className='bg-gray-800 p-4'>
@@ -124,7 +124,7 @@ function App() {
               </div>
               <div className='w-[235px] flex justify-between'>
                 <h3>Drama</h3>
-                <img src={icon2} alt='arrow' />
+                <img src={arrowIcon} alt='arrow' />
               </div>
             </div>
             <div className='bg-gray-800 p-4'>
@@ -133,7 +133,7 @@ function App() {
               </div>
               <div className='w-[235px] flex justify-between'>
                 <h3>Horror</h3>
-                <img src={icon2} alt='arrow' />
+                <img src={arrowIcon} alt='arrow' />
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@ function App() {
             <div className='bg-gray-900 p-6 rounded-lg w-auto h-auto sm:w-[400px] sm:h-[300px] '>
               <div className='flex justify-between'>
                 <img
-                  src={iconCOntainer}
+                  src={smartphoneIcon}
                   alt='Smartphone'
                   className='w-[72px] h-[72px] mb-4'
                 />
@@ -162,7 +162,7 @@ function App() {
             <div className='bg-gray-900 p-6 rounded-lg w-auto h-auto sm:w-[400px] sm:h-[300px] '>
               <div className='flex justify-between'>
                 <img
-                  src={iconCOntainer1}
+                  src={tabletIcon}
                   alt='Tablet'
                   className='w-[72px] h-[72px] mb-4'
                 />
@@ -179,7 +179,7 @@ function App() {
               <div className='flex justify-between'>
                 {' '}
                 <img
-                  src={iconCOntainer2}
+                  src={tvIcon}
                   alt='Smart TV'
                   className='w-[72px] h-[72px] mb-4'
                 />
@@ -196,7 +196,7 @@ function App() {
               <div className='flex justify-between'>
                 {' '}
                 <img
-                  src={iconCOntainer3}
+                  src={laptopIcon}
                   alt='Laptops'
                   className='w-[72px] h-[72px] mb-4'
                 />
@@ -213,7 +213,7 @@ function App() {
               <div className='flex justify-between'>
                 {' '}
                 <img
-                  src={iconCOntainer4}
+                  src={consoleIcon}
                   alt='Gaming Consoles'
                   className='w-[72px] h-[72px] mb-4'
                 />
@@ -231,7 +231,7 @@ function App() {
               <div className='flex justify-between'>
                 {' '}
                 <img
-                  src={iconCOntainer5}
+                  src={vrIcon}
                   alt='VR Headsets '
                   className='w-[72px] h-[72px] mb-4'
                 />
